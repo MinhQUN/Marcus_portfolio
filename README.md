@@ -1,7 +1,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link CSS to HTML</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
@@ -34,7 +33,7 @@
         Visit Site <span>&rarr;</span>
         </a> 
         <a href="https://github.com/MinhQUN/github-porfolio#" target="_blank">
-        <img src="" class="work__code" alt="GitHub">
+        <img src="#" class="work__code" alt="GitHub">
         </a>
     </div>
 
@@ -89,7 +88,7 @@
         <h2>Get in Touch</h2>
         <div class="contact__info">
           <p>
-            The quickest way to reach out to me is via an email. 
+            I'm always open to discussing new projects or opportunities. The quickest way to reach out is via email.
           </p>
           <!-- Replace the email with yours -->
           <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="btn">nguyenminhquangqn01012005@gmail.com</a>
@@ -99,15 +98,15 @@
 <p>or:</p>
 
 <footer role="contentinfo" class="footer">
-    <div class="row">
+    <div class="row">       
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
             <li class="footer__social-link-item">
-                <a href="https://github.com/MinhQUN"> Github </a>
+                <a href="https://github.com/MinhQUN" target="_blank"> Github </a>
             </li>
 
             <li class="footer__social-link-item">
-                <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work"> linkedIn  </a>
+                <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work"> LinkedIn  </a>
             </li>
         </ul>
     </div>
