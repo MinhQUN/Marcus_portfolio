@@ -68,8 +68,8 @@
                 <!-- Add a nice photo of yourself -->
                 <img
                 class="about__photo"
-                src=""
-                alt=""
+                src="images\Minh Quang_Portrait 1.jpg"
+                alt="Profile Photo"
                 />
             </div>
         </div>
@@ -82,41 +82,28 @@
         <h2>Get in Touch</h2>
         <div class="contact__info">
           <p>
-            Are you looking for a fast-performing and user-friendly website to
-            represent your product or business? or looking for any kind of
-            consultation? or want to ask questions? or have some advice for me
-            or just want to say "Hi 👋" in any case feel free to Let me know. I
-            will do my best to respond back. 😊 The quickest way to reach out to
-            me is via an email.
+            The quickest way to reach out to me is via an email. 
           </p>
           <!-- Replace the email with yours -->
-          <a href="mailto:you@example.com" class="btn">you@example.com</a>
+          <a href="nguyenminhquangqn01012005@gmail.com"></a> class="btn">nguyenminhquangqn01012005@gmail.com</a>
         </div>
       </div>
 </section>
-
+<p>or:</p>
 <footer role="contentinfo" class="footer">
     <div class="row">
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
+
             <li class="footer__social-link-item">
-                <a href="https://twitter.com/nisarhassan12/">
-                    <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+                <a href="https://github.com/MinhQUN">
+                    <img src="images\Github Logo.png" class="footer__social-image" alt="Github">
                 </a>
             </li>
+
             <li class="footer__social-link-item">
-                <a href="https://github.com/nisarhassan12/">
-                    <img src="./images/github.svg" class="footer__social-image" alt="Github">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href="https://codepen.io/nisar_hassan">
-                    <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-                    <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
+                <a href="www.linkedin.com/in/minh-quang-nguyen-010105work">
+                    <img src="images\LinkedIn Logo.svg" class="footer__social-image" alt="Linkedin">
                 </a>
             </li>
         </ul>
