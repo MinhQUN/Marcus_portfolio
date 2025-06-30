@@ -3,14 +3,14 @@
         <h1 class="heading-primary">
         <span>Marcus Nguyen</span> 
         </h1>
-        <p>A Digital Business Student graduated from UniSA university, Australia</p>
+        <p>A Digital Business Student from UniSA with a passion for business analysis and technology.</p>
         <a href="https://github.com/MinhQUN/github-porfolio?tab=readme-ov-file#get-in-touch" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
 
 <div class="work__box">
     <div class="work__text">
-    <h3>My Portfolio</h3>
+    <h3>Business Analytics Portfolio</h3>
     <p>
         Skills Listed:
     </p>
@@ -38,13 +38,13 @@
     # Recommended image size: 1366 x 767px
     <div class="work__image-box">
         <img
-            src="./images/project-1.png" # Replace with your project image
+            src="#" # Replace with your project image
             class="work__image"
             alt="Project 1"
         />
 
         <img
-            src ="./images/project-2.png"
+            src ="#"
             class="work__image"             
             alt="Project 2"
         />
@@ -68,7 +68,7 @@
                 <!-- Add a nice photo of yourself -->
                 <img
                 class="about__photo"
-                src="images\Minh Quang_Portrait 1.jpg"
+                src="images/Minh Quang_Portrait 1.jpg"
                 alt="Profile Photo"
                 />
             </div>
@@ -85,7 +85,7 @@
             The quickest way to reach out to me is via an email. 
           </p>
           <!-- Replace the email with yours -->
-          <a href="nguyenminhquangqn01012005@gmail.com" class="btn">nguyenminhquangqn01012005@gmail.com</a>
+          <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="btn">nguyenminhquangqn01012005@gmail.com</a>
         </div>
       </div>
 </section>
@@ -97,13 +97,13 @@
         <ul class="footer__social-links">
             <li class="footer__social-link-item">
                 <a href="https://github.com/MinhQUN">
-                    <img src="images\Github Logo.png" class="footer__social-image" alt="Github">
+                    <img src="images/Github Logo.png" class="footer__social-image" alt="Github">
                 </a>
             </li>
 
             <li class="footer__social-link-item">
                 <a href="www.linkedin.com/in/minh-quang-nguyen-010105work">
-                    <img src="images\LinkedIn Logo.svg" class="footer__social-image" alt="Linkedin">
+                    <img src="images/LinkedIn Logo.svg" class="footer__social-image" alt="Linkedin">
                 </a>
             </li>
         </ul>
