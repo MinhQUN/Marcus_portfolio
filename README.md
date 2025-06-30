@@ -1,8 +1,14 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link CSS to HTML</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
 <div class="header__text-box row">
     <div class="header__text">
         <h1 class="heading-primary">
         <span>Marcus Nguyen</span> 
-         <link rel="stylesheet" href="index.css" />
         </h1>
         <p>A Digital Business Student from UniSA with a passion for business analysis and technology.</p>
         <a href="https://github.com/MinhQUN/github-porfolio?tab=readme-ov-file#get-in-touch" class="btn btn--pink">Get in touch</a>
