@@ -103,15 +103,11 @@
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
             <li class="footer__social-link-item">
-                <a href="https://github.com/MinhQUN">
-                    <img src="images/github.svg" class="footer__social-image" alt="Github"> Github
-                </a>
+                <a href="https://github.com/MinhQUN"> Github </a>
             </li>
 
             <li class="footer__social-link-item">
-                <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work">
-                    <img src="images/linkedin.svg" class="footer__social-image" alt="Linkedin"> LinkedIn
-                </a>
+                <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work"> linkedIn  </a>
             </li>
         </ul>
 
