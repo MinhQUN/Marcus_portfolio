@@ -1,11 +1,9 @@
 # github-porfolio
-
 <div class="header__text-box row">
     <div class="header__text">
         <h1 class="heading-primary">
-        <span>Marcus Nguyen</span>
+        <span>Marcus Nguyen</span> 
         </h1>
-        <p>A Digital Business Student based in Australia</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
