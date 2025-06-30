@@ -1,4 +1,3 @@
-# github-porfolio
 <div class="header__text-box row">
     <div class="header__text">
         <h1 class="heading-primary">
