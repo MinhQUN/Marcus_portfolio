@@ -5,8 +5,7 @@
         <span>Marcus Nguyen</span> 
         </h1>
         <p>A Digital Business Student graduated from UniSA university, Australia</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-        <a href="www.linkedin.com/in/minh-quang-nguyen-010105work" class="btn btn--white">LinkedIN</a>
+        <a href="https://github.com/MinhQUN/github-porfolio?tab=readme-ov-file#get-in-touch" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
 
