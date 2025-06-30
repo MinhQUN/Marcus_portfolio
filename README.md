@@ -104,13 +104,13 @@
         <ul class="footer__social-links">
             <li class="footer__social-link-item">
                 <a href="https://github.com/MinhQUN">
-                    <img src="images/Github Logo.png" class="footer__social-image" alt="Github">
+                    <img src="images/github.svg" class="footer__social-image" alt="Github"> Github
                 </a>
             </li>
 
             <li class="footer__social-link-item">
                 <a href="www.linkedin.com/in/minh-quang-nguyen-010105work">
-                    <img src="images/LinkedIn Logo.svg" class="footer__social-image" alt="Linkedin">
+                    <img src="images/linkedin.svg" class="footer__social-image" alt="Linkedin"> LinkedIn
                 </a>
             </li>
         </ul>
