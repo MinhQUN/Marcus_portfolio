@@ -110,4 +110,6 @@
                 <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work"> linkedIn  </a>
             </li>
         </ul>
+    </div>
+</footer>
 
