@@ -1,114 +1,201 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
+<div align="center">
 
-<div class="header__text-box row">
-    <div class="header__text">
-        <h1 class="heading-primary">
-        <span>Marcus Nguyen</span> 
-        </h1>
-        <p>A Digital Business Student from UniSA with a passion for business analysis and technology.</p>
-        <a href="https://github.com/MinhQUN/github-porfolio?tab=readme-ov-file#get-in-touch" class="btn btn--pink">Get in touch</a>
-    </div>
+# 🚀 Marcus Nguyen | Business Analytics Portfolio
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-brightgreen?style=for-the-badge&logo=github)](https://MinhQUN.github.io/github-porfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/minh-quang-nguyen-010105work)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail)](mailto:nguyenminhquangqn01012005@gmail.com)
+
+![GitHub stats](https://img.shields.io/github/followers/MinhQUN?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/MinhQUN/github-porfolio?style=flat-square)
+![Profile views](https://komarev.com/ghpvc/?username=MinhQUN&color=blueviolet&style=flat-square)
+
+*Digital Business Student | Data-Driven Decision Maker | Business Intelligence Enthusiast*
+
 </div>
 
-<div class="work__box">
-    <div class="work__text">
-    <h3>Business Analytics Portfolio</h3>
-    <p>
-        Skills Listed:
-    </p>
-    <ul class="work__list">
-        <li>MOS - Excel</li>
-        <li>Tableau</li>
-        <li>SQL</li>
-        <li>Python</li>
-        <li>HTML, CSS - basic</li>
-    </ul>
+---
 
-    <div class="work__links">
-        <a href="#" class="link__text">
-        Visit Site <span>&rarr;</span>
-        </a> 
-        <a href="https://github.com/MinhQUN/github-porfolio#" target="_blank">
-        <img src="#" class="work__code" alt="GitHub">
-        </a>
-    </div>
+## 📊 About Me
 
-    </div>
+Hello! I'm **Marcus Nguyen**, a passionate Digital Business student from the University of South Australia (UniSA) with a strong foundation in business analytics and data-driven decision making. I specialize in transforming complex business challenges into actionable insights through advanced analytical techniques and strategic thinking.
 
-    # Screen capture of the project you have done
-    # Create a folder named images and put your project images in it
-    # Recommended image size: 1366 x 767px
-    <div class="work__image-box">
-        <img
-            src="#" # Replace with your project image
-            class="work__image"
-            alt="Project 1"
-        />
+With expertise spanning from descriptive analytics to predictive modeling, I help organizations optimize operations, enhance customer experiences, and drive sustainable growth through data-informed strategies.
 
-        <img
-            src ="#"
-            class="work__image"             
-            alt="Project 2"
-        />
-    </div>
+### 🎯 What I Do
+- **Business Intelligence**: Transform raw data into strategic business insights
+- **Process Optimization**: Identify bottlenecks and improve operational efficiency  
+- **Data Visualization**: Create compelling dashboards and reports for stakeholders
+- **Predictive Analytics**: Forecast trends and support strategic planning
+- **Requirements Analysis**: Bridge the gap between business needs and technical solutions
+
+---
+
+## 🛠️ Technical Skills & Tools
+
+<div align="center">
+
+### Analytics & Business Intelligence
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Programming & Analysis
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
+
+### Web Development & Presentation
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![PowerPoint](https://img.shields.io/badge/Microsoft%20PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)
+
 </div>
 
-<section class="about" id="about">
-    <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-            <div class="about__text">
-                <!-- Replace the below paragraph with info about yourself -->
-                <p>
-                Hi, I'm Marcus Nguyen, a Digital Business student with a passion for technology and data analysis. I have a strong foundation in digital business concepts and practical skills in data visualization and analysis. I am always eager to learn and adapt to new challenges in the ever-evolving digital landscape.
-                </p>
-                <!-- Provide a link to your resume -->
-                <a href="#" class="btn">My Resume</a>
-            </div>
+---
 
-            <div class="about__photo-container">
-                <!-- Add a nice photo of yourself -->
-                <img
-                class="about__photo"
-                src="images/Minh Quang_Portrait 1.jpg"
-                alt="Profile Photo"
-                />
-            </div>
-        </div>
-    </div>
-</section>
+## 📈 Featured Projects
 
+### 🏆 **[PROJECT TITLE 1]** 
+*[Insert your first project link here when you attach it]*
 
-<section class="contact" id="contact">
-      <div class="row">
-        <h2>Get in Touch</h2>
-        <div class="contact__info">
-          <p>
-            I'm always open to discussing new projects or opportunities. The quickest way to reach out is via email.
-          </p>
-          <!-- Replace the email with yours -->
-          <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="btn">nguyenminhquangqn01012005@gmail.com</a>
-        </div>
-      </div>
-</section>
-<p>or:</p>
+**Business Challenge**: [Describe the business problem you solved]
+**Methodology**: Descriptive Analytics, Data Visualization
+**Tools Used**: Excel, Tableau, SQL
+**Key Insights**: 
+- [Key finding 1 with quantifiable impact]
+- [Key finding 2 with business value]
+- [Key finding 3 with strategic recommendation]
 
-<footer role="contentinfo" class="footer">
-    <div class="row">       
-        <!-- Update the links to point to your accounts -->
-        <ul class="footer__social-links">
-            <li class="footer__social-link-item">
-                <a href="https://github.com/MinhQUN" target="_blank"> Github </a>
-            </li>
+**Business Impact**: [Quantified results - e.g., "Identified 25% cost reduction opportunity" or "Improved process efficiency by 30%"]
 
-            <li class="footer__social-link-item">
-                <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work"> LinkedIn  </a>
-            </li>
-        </ul>
-    </div>
-</footer>
+---
 
+### 📊 **[PROJECT TITLE 2]** 
+*[Insert your second project link here when you attach it]*
+
+**Business Challenge**: [Describe the business problem you solved]
+**Methodology**: Predictive Analytics, Statistical Modeling
+**Tools Used**: Python, Pandas, Matplotlib
+**Key Insights**: 
+- [Key finding 1 with business context]
+- [Key finding 2 with strategic value]
+- [Key finding 3 with actionable recommendations]
+
+**Business Impact**: [Measurable outcomes and business value created]
+
+---
+
+### 🎯 **[PROJECT TITLE 3]** 
+*[Insert your third project link here when you attach it]*
+
+**Business Challenge**: [Describe the business problem you solved]
+**Methodology**: Prescriptive Analytics, Process Optimization
+**Tools Used**: SQL, Tableau, Excel
+**Key Insights**: 
+- [Strategic insight 1]
+- [Operational improvement 2]
+- [Risk mitigation strategy 3]
+
+**Business Impact**: [Quantified business outcomes and stakeholder value]
+
+---
+
+## 🎓 Education & Certifications
+
+### 🏛️ **University of South Australia (UniSA)**
+**Bachelor of Digital Business** | *Current*
+- Specialization in Business Analytics and Digital Transformation
+- Relevant Coursework: Data Analytics, Business Intelligence, Digital Strategy, Process Optimization
+
+### 📜 **Professional Certifications**
+- **Microsoft Office Specialist (MOS) - Excel** | *Certified*
+- **[Additional certifications when obtained]** | *In Progress*
+
+---
+
+## 💼 Core Competencies
+
+<div align="center">
+
+| **Business Analysis** | **Technical Skills** | **Soft Skills** |
+|:---:|:---:|:---:|
+| Requirements Gathering | Data Modeling | Strategic Thinking |
+| Process Mapping | Statistical Analysis | Stakeholder Management |
+| Business Case Development | Database Querying | Communication |
+| KPI Development | Data Visualization | Problem Solving |
+| Risk Assessment | Predictive Modeling | Critical Thinking |
+
+</div>
+
+---
+
+## 📚 Knowledge Areas
+
+### 🔍 **Analytics Expertise**
+- **Descriptive Analytics**: Historical data analysis, trend identification, performance reporting
+- **Diagnostic Analytics**: Root cause analysis, correlation studies, variance analysis  
+- **Predictive Analytics**: Forecasting, trend analysis, risk modeling
+- **Prescriptive Analytics**: Optimization, recommendation systems, strategic planning
+
+### 🏢 **Business Domains**
+- Financial Analysis & Budgeting
+- Customer Behavior Analytics
+- Operational Efficiency Analysis
+- Market Research & Competitive Analysis
+- Risk Management & Compliance
+
+---
+
+## 🌟 What Makes Me Different
+
+✅ **Business-First Approach**: I don't just analyze data—I solve business problems
+✅ **Stakeholder Communication**: Translate complex analytics into actionable business insights  
+✅ **End-to-End Thinking**: From data collection to strategic recommendations
+✅ **Continuous Learning**: Always staying current with industry trends and technologies
+✅ **Collaborative Mindset**: Work effectively with cross-functional teams
+
+---
+
+## 📞 Let's Connect!
+
+I'm always excited to discuss business analytics, data science, and digital transformation opportunities. Whether you're looking for a passionate business analyst or want to collaborate on data-driven projects, I'd love to hear from you!
+
+<div align="center">
+
+[![Portfolio Website](https://img.shields.io/badge/🌐%20Portfolio%20Website-Visit%20Now-success?style=for-the-badge)](https://MinhQUN.github.io/github-porfolio/)
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Professional%20Network-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/minh-quang-nguyen-010105work)
+[![Email Contact](https://img.shields.io/badge/Email-Let's%20Talk-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nguyenminhquangqn01012005@gmail.com)
+[![GitHub Profile](https://img.shields.io/badge/GitHub-View%20Projects-181717?style=for-the-badge&logo=github)](https://github.com/MinhQUN)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚀 Ready to Transform Data into Business Value?
+
+*"Data is the new oil, but analytics is the refinery that transforms it into business value."*
+
+**Let's build something amazing together!**
+
+![Visitor Count](https://komarev.com/ghpvc/?username=MinhQUN&color=brightgreen&style=flat-square)
+
+</div>
+
+---
+
+## 📋 Repository Information
+
+**Last Updated**: January 2025  
+**Status**: Active Development  
+**License**: MIT License  
+
+> This portfolio represents my journey in business analytics and demonstrates my passion for data-driven decision making. Each project showcases real-world problem-solving skills and business impact.
+
+---
+
+*⭐ If you found my portfolio helpful or interesting, please consider giving it a star!*
