@@ -10,7 +10,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/MinhQUN/github-porfolio?style=flat-square)
 ![Profile views](https://komarev.com/ghpvc/?username=MinhQUN&color=blueviolet&style=flat-square)
 
-*Digital Business Student | Data-Driven Decision Maker | Business Intelligence Enthusiast*
+*Digital Business Student | Business Analytics & Business Intelligence Analytics Interest*
 
 </div>
 
@@ -18,13 +18,12 @@
 
 ## 📊 About Me
 
-Hello! I'm **Marcus Nguyen**, a passionate Digital Business student from the University of South Australia (UniSA) with a strong foundation in business analytics and data-driven decision making. I specialize in transforming complex business challenges into actionable insights through advanced analytical techniques and strategic thinking.
+Hello! I'm **Marcus Nguyen**, a passionate Digital Business student from the University of South Australia (UniSA). My academic journey across multiple countries has equipped me with a fresh, global perspective and a keen understanding of diverse cultures, including the nuances of Australian business environments. 
 
-With expertise spanning from descriptive analytics to predictive modeling, I help organizations optimize operations, enhance customer experiences, and drive sustainable growth through data-informed strategies.
+Through hands-on experience and leadership roles as listed in my Resume (attached below), I have developed strong analytical, collaborative, adaptive skills and communication 'as a key'. I view challenges and setbacks as valuable opportunities for growth, and I am eager to apply my curiosity, resilience, and evolving expertise to real-world business problems-delivering meaningful impact and continuous improvement.
 
 ### 🎯 What I Do
 - **Business Intelligence**: Transform raw data into strategic business insights
-- **Process Optimization**: Identify bottlenecks and improve operational efficiency  
 - **Data Visualization**: Create compelling dashboards and reports for stakeholders
 - **Predictive Analytics**: Forecast trends and support strategic planning
 - **Requirements Analysis**: Bridge the gap between business needs and technical solutions
