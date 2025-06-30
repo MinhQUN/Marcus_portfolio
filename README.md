@@ -85,16 +85,16 @@
             The quickest way to reach out to me is via an email. 
           </p>
           <!-- Replace the email with yours -->
-          <a href="nguyenminhquangqn01012005@gmail.com"></a> class="btn">nguyenminhquangqn01012005@gmail.com</a>
+          <a href="nguyenminhquangqn01012005@gmail.com" class="btn">nguyenminhquangqn01012005@gmail.com</a>
         </div>
       </div>
 </section>
 <p>or:</p>
+
 <footer role="contentinfo" class="footer">
     <div class="row">
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
-
             <li class="footer__social-link-item">
                 <a href="https://github.com/MinhQUN">
                     <img src="images\Github Logo.png" class="footer__social-image" alt="Github">
