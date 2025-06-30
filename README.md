@@ -4,6 +4,7 @@
         <h1 class="heading-primary">
         <span>Marcus Nguyen</span> 
         </h1>
+        <p>A Digital Business Student graduated from UniSA university based in Australia</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
