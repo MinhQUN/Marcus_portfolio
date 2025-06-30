@@ -109,7 +109,7 @@
             </li>
 
             <li class="footer__social-link-item">
-                <a href="www.linkedin.com/in/minh-quang-nguyen-010105work">
+                <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work">
                     <img src="images/linkedin.svg" class="footer__social-image" alt="Linkedin"> LinkedIn
                 </a>
             </li>
