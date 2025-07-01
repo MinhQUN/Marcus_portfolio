@@ -2,7 +2,7 @@
 
 # 🚀 Marcus Nguyen | Business Analytics Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-brightgreen?style=for-the-badge&logo=github)](https://MinhQUN.github.io/github-porfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-brightgreen?style=for-the-badge&logo=github)](https://minhqun.github.io/Marcus_portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/minh-quang-nguyen-010105work)
 [![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge&logo=gmail)](mailto:nguyenminhquangqn01012005@gmail.com)
 
@@ -101,12 +101,16 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 
 ### 🏛️ **University of South Australia (UniSA)**
 **Bachelor of Digital Business** | *Current*
-- Specialization in Business Analytics and Digital Transformation
-- Relevant Coursework: Data Analytics, Business Intelligence, Digital Strategy, Process Optimization
+- 6.33/7 GPA (Top 5% of undergraduate and postgraduate students)
+- Vice-Chancellor's International Excellence Scholarship of 50% at the University of South Australia
+- Relevant Coursework: Project Management, Cloud Platforms, Business Intelligence, Digital Technology in Business, Digital Solution Methodologies
 
 ### 📜 **Professional Certifications**
-- **Microsoft Office Specialist (MOS) - Excel** | *Certified*
-- **[Additional certifications when obtained]** | *In Progress*
+- **Excel Basics for Data Analysis** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg?e=sGq0kD)
+- **SQL: A Practical Introduction for Querying Databases** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=vHUR4f)
+- **Python for Data Science and AI & Development** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=3t9hLz)
+- **Data Warehouse Fundamentals** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=Sh4XDt)
+- **Business Analysis Fundamentals** | Microsoft | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw?e=Hvi3Kk)
 
 ---
 
@@ -159,7 +163,7 @@ I'm always excited to discuss business analytics, data science, and digital tran
 
 <div align="center">
 
-[![Portfolio Website](https://img.shields.io/badge/🌐%20Portfolio%20Website-Visit%20Now-success?style=for-the-badge)](https://MinhQUN.github.io/github-porfolio/)
+[![Portfolio Website](https://img.shields.io/badge/🌐%20Portfolio%20Website-Visit%20Now-success?style=for-the-badge)](https://minhqun.github.io/Marcus_portfolio/)
 [![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Professional%20Network-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/minh-quang-nguyen-010105work)
 [![Email Contact](https://img.shields.io/badge/Email-Let's%20Talk-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nguyenminhquangqn01012005@gmail.com)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-View%20Projects-181717?style=for-the-badge&logo=github)](https://github.com/MinhQUN)
