@@ -102,6 +102,7 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 ### 🏛️ **University of South Australia (UniSA)**
 **Bachelor of Digital Business** | *Current*
 - 6.33/7 GPA (Top 5% of undergraduate and postgraduate students)
+- Vice-Chancellor's International Excellence Scholarship of 50% at the University of South Australia
 - Relevant Coursework: Project Management, Cloud Platforms, Business Intelligence, Digital Technology in Business, Digital Solution Methodologies
 
 ### 📜 **Professional Certifications**
