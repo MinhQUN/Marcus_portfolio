@@ -1,172 +1,557 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Nguyen | Business Analytics Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </button>
 
-*Digital Business Student | Business Analytics & Business Intelligence Analytics Interest*
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Marcus</span>
+                <span class="logo-accent">Nguyen</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-</div>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-text">Hi, I'm Marcus Nguyen</span>
+                    </h1>
+                    <p class="hero-subtitle">Digital Business Student | Business Analytics & Business Intelligence Analytics Interest</p>
+                    <p class="hero-description">
+                        Transforming data into strategic business insights with a global perspective 
+                        and passion for analytics-driven decision making.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="./images/marcus-nguyen-portrait.jpg" alt="Marcus Nguyen - Business Analytics Professional" class="profile-image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="6.33">0</span>
+                    <span class="stat-label">GPA</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">Scholarship %</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
----
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about transforming data into actionable business insights</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro-text">
+                        Hello! I'm <strong>Marcus Nguyen</strong>, a passionate Digital Business student from the University of South Australia (UniSA). 
+                        My academic journey across multiple countries has equipped me with a fresh, global perspective and a keen understanding 
+                        of diverse cultures, including the nuances of Australian business environments.
+                    </p>
+                    <p>
+                        Through hands-on experience and leadership roles, I have developed strong analytical, collaborative, adaptive skills 
+                        and communication 'as a key'. I view challenges and setbacks as valuable opportunities for growth, and I am eager 
+                        to apply my curiosity, resilience, and evolving expertise to real-world business problems—delivering meaningful 
+                        impact and continuous improvement.
+                    </p>
+                    <div class="specialties">
+                        <h3>What I Do</h3>
+                        <div class="specialty-grid">
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Business Intelligence</h4>
+                                    <p>Transform raw data into strategic business insights</p>
+                                </div>
+                            </div>
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Data Visualization</h4>
+                                    <p>Create compelling dashboards and reports for stakeholders</p>
+                                </div>
+                            </div>
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Predictive Analytics</h4>
+                                    <p>Forecast trends and support strategic planning</p>
+                                </div>
+                            </div>
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Requirements Analysis</h4>
+                                    <p>Bridge the gap between business needs and technical solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-## 📊 About Me
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills & Tools</h2>
+                <p class="section-subtitle">Comprehensive toolkit for modern business analytics</p>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3 class="category-title">Analytics & Business Intelligence</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <span class="skill-name">MOS Excel</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-area"></i>
+                            </div>
+                            <span class="skill-name">Tableau</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <span class="skill-name">Power BI</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Programming & Analysis</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-table"></i>
+                            </div>
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Presentation & Communication</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-presentation"></i>
+                            </div>
+                            <span class="skill-name">PowerPoint</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-Hello! I'm **Marcus Nguyen**, a passionate Digital Business student from the University of South Australia (UniSA). My academic journey across multiple countries has equipped me with a fresh, global perspective and a keen understanding of diverse cultures, including the nuances of Australian business environments. 
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real-world business challenges solved through data-driven insights</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/project-1-dashboard.png" alt="Business Intelligence Dashboard Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Business Intelligence</div>
+                        <h3 class="project-title">Interactive Sales Dashboard</h3>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Streamline sales performance tracking across multiple regions
+                            <br><br>
+                            <strong>Methodology:</strong> Descriptive Analytics, Data Visualization
+                            <br><br>
+                            <strong>Tools Used:</strong> Excel, Tableau, SQL
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
 
-Through hands-on experience and leadership roles as listed in my Resume (attached below), I have developed strong analytical, collaborative, adaptive skills and communication 'as a key'. I view challenges and setbacks as valuable opportunities for growth, and I am eager to apply my curiosity, resilience, and evolving expertise to real-world business problems-delivering meaningful impact and continuous improvement.
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/project-2-excel.png" alt="Predictive Analytics Model Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Predictive Analytics</div>
+                        <h3 class="project-title">Customer Behavior Analysis</h3>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Predict customer churn and identify retention strategies
+                            <br><br>
+                            <strong>Methodology:</strong> Predictive Analytics, Statistical Modeling
+                            <br><br>
+                            <strong>Tools Used:</strong> Python, Pandas, Matplotlib
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
 
-### 🎯 What I Do
-- **Business Intelligence**: Transform raw data into strategic business insights
-- **Data Visualization**: Create compelling dashboards and reports for stakeholders
-- **Predictive Analytics**: Forecast trends and support strategic planning
-- **Requirements Analysis**: Bridge the gap between business needs and technical solutions
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/project-3-optimization.png" alt="Process Optimization Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Process Optimization</div>
+                        <h3 class="project-title">Supply Chain Optimization</h3>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Optimize inventory management and reduce operational costs
+                            <br><br>
+                            <strong>Methodology:</strong> Prescriptive Analytics, Process Optimization
+                            <br><br>
+                            <strong>Tools Used:</strong> SQL, Tableau, Excel
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
----
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education & Certifications</h2>
+                <p class="section-subtitle">Academic excellence and professional development</p>
+            </div>
+            <div class="education-content">
+                <div class="education-main">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>University of South Australia (UniSA)</h3>
+                            <h4>Bachelor of Digital Business | Current</h4>
+                            <div class="education-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>6.33/7 GPA (Top 5% of undergraduate and postgraduate students)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Vice Chancellor's International Excellence Scholarship of 50%</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-book"></i>
+                                    <span>Relevant Coursework: Business Intelligence, Cloud Platforms</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <h3>Professional Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Excel Basics for Data Analysis</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg?e=sGq0kD" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>SQL: A Practical Introduction for Querying Databases</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=vHUR4f" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Python for Data Science and AI & Development</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=3t9hLz" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-warehouse"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Data Warehouse Fundamentals</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=Sh4XDt" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Business Analysis Fundamentals</h4>
+                                <p>Microsoft</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw?e=Hvi3Kk" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-## 🛠️ Technical Skills & Tools
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect!</h2>
+                <p class="section-subtitle">Ready to Transform Data into Business Value?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">
+                        I'm always excited to discuss business analytics, data science, and digital transformation opportunities. 
+                        Whether you're looking for a passionate business analyst or want to collaborate on data-driven projects, 
+                        I'd love to hear from you!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email Me</h4>
+                                <p>nguyenminhquangqn01012005@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>LinkedIn</h4>
+                                <p>Professional Network</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/MinhQUN/Marcus_portfolio" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>GitHub</h4>
+                                <p>View Projects</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-content">
+                        <h3>"Data is the new oil, but analytics is the refinery that transforms it into business value."</h3>
+                        <p>Let's build something amazing together!</p>
+                        <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="btn btn-primary">
+                            <span>Start a Conversation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div align="center">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 Marcus Nguyen. All rights reserved.</p>
+                    <p>Crafted with passion for business analytics and data-driven insights.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero" class="footer-link">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-### Analytics & Business Intelligence
-MOS - Excel 
-Tableau, PowerBI
-SQL
-
-### Programming & Analysis
-Python
-Pandas
-HTML, CSS - basic
-
-### Presentation
-PowerPoint
-</div>
-
----
-
-## 📈 Featured Projects
-
-### 🏆 **[PROJECT TITLE 1]** 
-*[Insert your first project link here when you attach it]*
-
-**Business Challenge**: [Describe the business problem you solved]
-**Methodology**: Descriptive Analytics, Data Visualization
-**Tools Used**: Excel, Tableau, SQL
-**Key Insights**: 
-- [Key finding 1 with quantifiable impact]
-- [Key finding 2 with business value]
-- [Key finding 3 with strategic recommendation]
-
-**Business Impact**: [Quantified results - e.g., "Identified 25% cost reduction opportunity" or "Improved process efficiency by 30%"]
-
----
-
-### 📊 **[PROJECT TITLE 2]** 
-*[Insert your second project link here when you attach it]*
-
-**Business Challenge**: [Describe the business problem you solved]
-**Methodology**: Predictive Analytics, Statistical Modeling
-**Tools Used**: Python, Pandas, Matplotlib
-**Key Insights**: 
-- [Key finding 1 with business context]
-- [Key finding 2 with strategic value]
-- [Key finding 3 with actionable recommendations]
-
-**Business Impact**: [Measurable outcomes and business value created]
-
----
-
-### 🎯 **[PROJECT TITLE 3]** 
-*[Insert your third project link here when you attach it]*
-
-**Business Challenge**: [Describe the business problem you solved]
-**Methodology**: Prescriptive Analytics, Process Optimization
-**Tools Used**: SQL, Tableau, Excel
-**Key Insights**: 
-- [Strategic insight 1]
-- [Operational improvement 2]
-- [Risk mitigation strategy 3]
-
-**Business Impact**: [Quantified business outcomes and stakeholder value]
-
----
-
-## 🎓 Education & Certifications
-
-### 🏛️ **University of South Australia (UniSA)**
-**Bachelor of Digital Business** | *Current*
-- 6.33/7 GPA (Top 5% of undergraduate and postgraduate students)
-- Vice Chancellor's International Excellence Scholarship of 50%
-- Relevant Coursework: Business Intelligence, Cloud Platforms, 
-
-### 📜 **Professional Certifications**
-- **Excel Basics for Data Analysis - IBM** | <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg?e=sGq0kD"> *Certified*</a>
-- **SQL: A Practical Introduction for Quering Databases - IBM** | <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=vHUR4f">*Certified*</a>
-- **Python for Data Science and AI & Development - IBM** | <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=3t9hLz">*Certified*</a>
-- **Data Warehouse Fundamentals - IBM** | <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=Sh4XDt">*Certified*</a>
-- **Business Analysis Fundamentals - Microsoft** | <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw?e=Hvi3Kk">*Certified*</a> 
----
-
-## 💼 Core Competencies
-
-
----
-
-## 📚 Knowledge Areas
-
-### 🔍 **Analytics Expertise**
-- **Descriptive Analytics**: Historical data analysis, trend identification, performance reporting
-- **Diagnostic Analytics**: Root cause analysis, correlation studies, variance analysis  
-- **Predictive Analytics**: Forecasting, trend analysis, risk modeling
-- **Prescriptive Analytics**: Optimization, recommendation systems, strategic planning
-
-### 🏢 **Business Domains**
-- Financial Analysis & Budgeting
-- Customer Behavior Analytics
-- Operational Efficiency Analysis
-- Market Research & Competitive Analysis
-
----
-
-## 🌟 What Makes Me Different
-
-- **Business-First Approach**: I don't just analyze data — I solve business problems
-- **Stakeholder Communication**: Translate complex analytics into actionable business insights  
-- **End-to-End Thinking**: From data collection to strategic recommendations
-- **Continuous Learning**: Always staying current with industry trends and technologies
-- **Collaborative Mindset**: Work effectively with cross-functional teams
-
----
-
-## 📞 Let's Connect!
-
-I'm always excited to discuss business analytics, data science, and digital transformation opportunities. Whether you're looking for a passionate business analyst or want to collaborate on data-driven projects, I'd love to hear from you!
-
-<div align="center">
-<a href="https://minhqun.github.io/Marcus_portfolio/" target="_blank">Portfolio Website</a> 
-<a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work" target="_blank">LinkedIn Profile</a>
-<a href="mailto:nguyenminhquangqn01012005@gmail.com" target="_blank">Email Me</a>
-<a href="https://github.com/MinhQUN/Marcus_portfolio">GitHub Profile</a>
-</div>
-
----
-
-<div align="center">
-
-<h2>🚀 Ready to Transform Data into Business Value?</h2>
-
-<h3>"Data is the new oil, but analytics is the refinery that transforms it into business value."</h3>
-
-<h4>Let's build something amazing together!</h4>
-
-</div>
-
----
-
-## 📋 Repository Information
-
-**Last Updated**: July 2025  
-**Status**: Active Development  
-**License**: MIT License  
-
-> This portfolio represents my journey in business analytics and demonstrates my passion for data-driven decision making. Each project showcases real-world problem-solving skills and business impact.
-
----
-
-*⭐ If you found my portfolio helpful or interesting, please consider giving it a star!*
+    <script src="script.js"></script>
+</body>
+</html>
