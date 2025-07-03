@@ -817,7 +817,7 @@ a {
 .experience-card {
   display: flex;
   align-items: flex-start;
-  gap: var(--spacing-sm);
+  gap: var(--spacing-lg);
   padding: var(--spacing-sm);
   background: var(--bg-secondary);
   border-radius: var(--border-radius-lg);
@@ -874,6 +874,7 @@ a {
 .certifications h3 {
   text-align: center;
   margin-bottom: var(--spacing-xl);
+  margin-top: var(--spacing-3xl);
   color: var(--text-primary);
 }
 
