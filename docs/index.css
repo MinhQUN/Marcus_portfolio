@@ -805,13 +805,13 @@ a {
 
 /* ===== EXPERIENCE SECTION ===== */
 .experience {
-  padding: var(--spacing-3xl) 0;
+  padding: var(--spacing-xl) 0;
 }
 
 .experience-content {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-2xl);
+  gap: var(--spacing-lg);
 }
 
 .experience-card {
