@@ -803,18 +803,18 @@ a {
   font-weight: 500;
 }
 
-/* ===== EDUCATION SECTION ===== */
-.education {
+/* ===== EXPERIENCE SECTION ===== */
+.experience {
   padding: var(--spacing-3xl) 0;
 }
 
-.education-content {
+.experience-content {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-2xl);
 }
 
-.education-card {
+.experience-card {
   display: flex;
   align-items: flex-start;
   gap: var(--spacing-lg);
@@ -825,11 +825,11 @@ a {
   transition: transform var(--transition-base);
 }
 
-.education-card:hover {
+.experience-card:hover {
   transform: translateY(-5px);
 }
 
-.education-icon {
+.experience-icon {
   width: 60px;
   height: 60px;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
@@ -842,18 +842,18 @@ a {
   flex-shrink: 0;
 }
 
-.education-info h3 {
+.experience-info h3 {
   color: var(--text-primary);
   margin-bottom: var(--spacing-xs);
 }
 
-.education-info h4 {
+.experience-info h4 {
   color: var(--primary-color);
   font-weight: 500;
   margin-bottom: var(--spacing-md);
 }
 
-.education-details {
+.experience-details {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-sm);
@@ -1231,7 +1231,7 @@ a {
     font-size: 2rem;
   }
 
-  .education-card {
+  .experience-card {
     flex-direction: column;
     text-align: center;
   }
