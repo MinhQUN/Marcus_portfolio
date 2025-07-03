@@ -864,6 +864,7 @@ a {
   align-items: center;
   gap: var(--spacing-sm);
   color: var(--text-secondary);
+  padding-right: 5px;
 }
 
 .detail-item i {
