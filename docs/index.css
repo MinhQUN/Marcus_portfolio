@@ -134,7 +134,6 @@ a {
 .section-title {
   color: var(--text-primary);
   margin-bottom: var(--spacing-sm);
-  padding-top: var(--spacing-xl);
   position: relative;
   display: inline-block;
 }
