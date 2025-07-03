@@ -137,6 +137,13 @@ a {
   position: relative;
   display: inline-block;
 }
+.section-title-ex {
+  margin-top: var(--spacing-lg);
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-sm);
+  position: relative;
+  display: inline-block;
+}
 
 .section-title::after {
   content: '';
