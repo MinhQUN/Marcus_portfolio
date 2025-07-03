@@ -138,11 +138,23 @@ a {
   display: inline-block;
 }
 .section-title-ex {
-  margin-top: var(--spacing-2xl);
+  margin-top: var(--spacing-3xl);
   color: var(--text-primary);
   margin-bottom: var(--spacing-sm);
   position: relative;
   display: inline-block;
+}
+
+.section-title-ex::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+  border-radius: 2px;
 }
 
 .section-title::after {
