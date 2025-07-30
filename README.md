@@ -52,48 +52,37 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 
 ## 📈 Featured Projects
 
-### 🏆 **[PROJECT TITLE 1]** 
-*[Insert your first project link here when you attach it]*
+### 🏆 **Business Intelligence Dashboard Project** 
+[*Link*](https://1drv.ms/u/c/ee915bc60156bc5c/EdQUsz0x9IpIqV5UnSMHoFMB45XNjH9jBrppDdAYNVSr_g?e=1vsYYp)
 
-**Business Challenge**: [Describe the business problem you solved]
+**Business Challenge**: Streamline sales performance tracking across multiple states of a Superstore in the US (data get from Kaggle)
 **Methodology**: Descriptive Analytics, Data Visualization
-**Tools Used**: Excel, Tableau, SQL
+**Tools Used**: Excel, Tableau
 **Key Insights**: 
-- [Key finding 1 with quantifiable impact]
-- [Key finding 2 with business value]
-- [Key finding 3 with strategic recommendation]
+- Sales performance varies significantly across states, with California and New York contributing over 30% of total revenue. Focusing resources and strategies on these high-value markets could further boost overall profitability.
+- Profit margins are highest in the Technology category, averaging 15%. In contrast, Furniture and Office Supplies categories show lower, and sometimes negative—margins, suggesting the need to optimize the overall product mix.
 
-**Business Impact**: [Quantified results - e.g., "Identified 25% cost reduction opportunity" or "Improved process efficiency by 30%"]
+**Step-by-step built**: [Video tutorial link](https://1drv.ms/v/c/ee915bc60156bc5c/EQlGcHwdabRGoRIgsVHYbhsBYXyL2URZmEtvzOF5qzwpRg)
 
 ---
 
-### 📊 **[PROJECT TITLE 2]** 
-*[Insert your second project link here when you attach it]*
+### 📊 **Excel Skills & Dashboard Project** 
+[*Link*](https://1drv.ms/x/c/ee915bc60156bc5c/ETP7myjjKtVPuSKuVwlIrBQBOIs7k3EDaoMTmiDJKKpo7A?e=5sKNUN)
 
-**Business Challenge**: [Describe the business problem you solved]
-**Methodology**: Predictive Analytics, Statistical Modeling
-**Tools Used**: Python, Pandas, Matplotlib
+**Business Challenge**: Present the sales performance of a store in the US during the Black Friday period (data get from Kaggle)
+**Methodology**: Data Management, Descriptive Analytics, Data Visualization
+**Tools Used**: Excel
 **Key Insights**: 
-- [Key finding 1 with business context]
-- [Key finding 2 with strategic value]
-- [Key finding 3 with actionable recommendations]
+- Customer purchasing activity peaked during Black Friday weekend, driving over 40% of the month total sales. This underscores the critical role of targeted promotions during high-traffic events for revenue maximization.
+- The Electronics and Clothing categories generated the highest average order values and profit margins, revealing these segments as strategic focuses for future Black Friday marketing and inventory planning.
+- Analysis identified that repeat customers contributed disproportionately to total revenue, recommending loyalty program enhancements and personalized outreach before and during event periods to further boost sales.
 
-**Business Impact**: [Measurable outcomes and business value created]
+**Step-by-step built**: [Video tutorial link](https://1drv.ms/v/c/ee915bc60156bc5c/EVSIQYCxZuRGvZQN1i8yKq0B763zoCHQYi-kIDeinVoNkQ?e=XgIYYj)
 
 ---
 
 ### 🎯 **[PROJECT TITLE 3]** 
 *[Insert your third project link here when you attach it]*
-
-**Business Challenge**: [Describe the business problem you solved]
-**Methodology**: Prescriptive Analytics, Process Optimization
-**Tools Used**: SQL, Tableau, Excel
-**Key Insights**: 
-- [Strategic insight 1]
-- [Operational improvement 2]
-- [Risk mitigation strategy 3]
-
-**Business Impact**: [Quantified business outcomes and stakeholder value]
 
 ---
 
