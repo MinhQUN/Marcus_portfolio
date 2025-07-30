@@ -58,6 +58,7 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 **Business Challenge**: Streamline sales performance tracking across multiple states of a Superstore in the US (data get from Kaggle)
 **Methodology**: Descriptive Analytics, Data Visualization
 **Tools Used**: Excel, Tableau
+
 **Key Insights**: 
 - Sales performance varies significantly across states, with California and New York contributing over 30% of total revenue. Focusing resources and strategies on these high-value markets could further boost overall profitability.
 - Profit margins are highest in the Technology category, averaging 15%. In contrast, Furniture and Office Supplies categories show lower, and sometimes negative—margins, suggesting the need to optimize the overall product mix.
@@ -72,6 +73,7 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 **Business Challenge**: Present the sales performance of a store in the US during the Black Friday period (data get from Kaggle)
 **Methodology**: Data Management, Descriptive Analytics, Data Visualization
 **Tools Used**: Excel
+
 **Key Insights**: 
 - Customer purchasing activity peaked during Black Friday weekend, driving over 40% of the month total sales. This underscores the critical role of targeted promotions during high-traffic events for revenue maximization.
 - The Electronics and Clothing categories generated the highest average order values and profit margins, revealing these segments as strategic focuses for future Black Friday marketing and inventory planning.
