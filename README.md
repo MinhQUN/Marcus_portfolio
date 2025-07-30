@@ -90,32 +90,16 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 
 ### 🏛️ **University of South Australia (UniSA)**
 **Bachelor of Digital Business** | *Current*
-- 6.33/7 GPA (Top 5% of undergraduate and postgraduate students)
+- 6.35/7 GPA (Top 5% of undergraduate and postgraduate students)
 - Vice-Chancellor's International Excellence Scholarship of 50% at the University of South Australia
-- Relevant Coursework: Project Management, Cloud Platforms, Business Intelligence, Digital Technology in Business, Digital Solution Methodologies
+- Relevant Coursework: Project Management, Cloud Platforms, Business Intelligence, Digital Technology in Business, Digital Solution Methodologies, Security Principles
 
 ### 📜 **Professional Certifications**
-- **Excel Basics for Data Analysis** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg?e=sGq0kD)
-- **SQL: A Practical Introduction for Querying Databases** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=vHUR4f)
-- **Python for Data Science and AI & Development** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=3t9hLz)
-- **Data Warehouse Fundamentals** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA?e=Sh4XDt)
-- **Business Analysis Fundamentals** | Microsoft | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw?e=Hvi3Kk)
-
----
-
-## 💼 Core Competencies
-
-<div align="center">
-
-| **Business Analysis** | **Technical Skills** | **Soft Skills** |
-|:---:|:---:|:---:|
-| Requirements Gathering | Data Modeling | Strategic Thinking |
-| Process Mapping | Statistical Analysis | Stakeholder Management |
-| Business Case Development | Database Querying | Communication |
-| KPI Development | Data Visualization | Problem Solving |
-| Risk Assessment | Predictive Modeling | Critical Thinking |
-
-</div>
+- **Excel Basics for Data Analysis** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg)
+- **SQL: A Practical Introduction for Querying Databases** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA)
+- **Python for Data Science and AI & Development** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EbqNPrcmiuxBql3hentsdu0BcILXb3jUtCH4gCQ-7wwWmg?e=JxA2Tt)
+- **Data Warehouse Fundamentals** | IBM | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EcSZVHneDq5HlBKmq8MQDB8B1UsnFSXelWU0TLLUaJWZDQ?e=P42r1d)
+- **Business Analysis Fundamentals** | Microsoft | [*Certified*](https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw)
 
 ---
 
@@ -132,16 +116,19 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 - Customer Behavior Analytics
 - Operational Efficiency Analysis
 - Market Research & Competitive Analysis
-- Risk Management & Compliance
 
 ---
 
 ## 🌟 What Makes Me Different
 
-✅ **Business-First Approach**: I don't just analyze data—I solve business problems
+✅ **Business-First Approach**: I don't just analyze data, I solve business problems
+
 ✅ **Stakeholder Communication**: Translate complex analytics into actionable business insights  
+
 ✅ **End-to-End Thinking**: From data collection to strategic recommendations
+
 ✅ **Continuous Learning**: Always staying current with industry trends and technologies
+
 ✅ **Collaborative Mindset**: Work effectively with cross-functional teams
 
 ---
