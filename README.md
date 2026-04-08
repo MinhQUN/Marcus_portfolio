@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Marcus Nguyen | Business Analytics Portfolio
+# Marcus Nguyen | Business Analytics Portfolio
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Site-brightgreen?style=for-the-badge&logo=github)](https://minhqun.github.io/Marcus_portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/minh-quang-nguyen-010105work)
@@ -38,6 +38,7 @@ Through hands-on experience and leadership roles as listed in my Resume (attache
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![PowerBI]()
 
 ### Programming & Analysis
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
