@@ -10,19 +10,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body data-theme="light">
-    <!-- Theme Toggle -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-        <i class="fas fa-sun"></i>
-        <i class="fas fa-moon"></i>
-    </button>
-
+<body>
+    
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#hero" class="nav-logo">
-                Marcus<span class="logo-accent">Nguyen</span>
-            </a>
+            <div class="nav-logo">
+                <span class="logo-text">Marcus</span>
+                <span class="logo-accent">Nguyen</span>
+            </div>
             <div class="nav-menu" id="navMenu">
                 <a href="#hero" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
@@ -44,44 +40,58 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <span class="hero-subtitle">Digital Business Student</span>
                     <h1 class="hero-title">
-                        Hi, I'm Marcus <br>
-                        <span class="typing-text" id="typewriter"></span>
+                        <span>Hi, I'm Marcus Nguyen</span>
                     </h1>
+                    <p class="hero-subtitle">Digital Business Student | Business Analytics & Business Intelligence Analytics Interest</p>
                     <p class="hero-description">
-                        Transforming raw data into strategic business insights with a global perspective. Specialized in Business Intelligence and Data Visualization to drive meaningful impact.
+                        Transforming data into strategic business insights with a global perspective 
+                        and passion for analytics-driven decision making.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View My Work</a>
-                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="hero-image">
                     <div class="image-container">
-                        <img src="images/profile.jpg" alt="Marcus Nguyen" class="profile-image" onerror="this.src='https://ui-avatars.com/api/?name=Marcus+Nguyen&background=3b82f6&color=fff&size=512'">
+                        <img src="images/Minh Quang_Portrait 1.jpg" alt="Marcus Nguyen - Business Analytics Professional" class="profile-image">
                         <div class="image-overlay"></div>
                     </div>
                 </div>
             </div>
             <div class="hero-stats">
                 <div class="stat-item">
-                    <span class="stat-number">6.38</span>
-                    <span class="stat-label">Current GPA</span>
+                    <a href="#experience" class="stat-link">
+                        <span class="stat-number" data-target="6.38">6.38</span>
+                        <span class="stat-label">GPA</span>
+                    </a>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">Certifications</span>
+                    <a href="#experience" class="stat-link">
+                        <span class="stat-number" data-target="5">5</span>
+                        <span class="stat-label">Certifications</span>
+                    </a>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">Key Projects</span>
+                    <a href="#projects" class="stat-link">
+                        <span class="stat-number" data-target="10">5</span>
+                        <span class="stat-label">Projects</span>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <div class="scroll-arrow"></div>
-        </div>
+        <a href="#about">
+            <div class="scroll-indicator">
+                    <div class="scroll-arrow"></div>
+            </div>
+        </a>
     </section>
 
     <!-- About Section -->
@@ -89,44 +99,58 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">About Me</h2>
-                <p class="section-subtitle">Passionate about solving real-world business problems through data-driven expertise.</p>
+                <p class="section-subtitle">Passionate about transforming data into actionable business insights</p>
             </div>
             <div class="about-content">
-                <p class="intro-text">
-                    I'm a Digital Business student at the **University of South Australia (UniSA)**. My academic journey across multiple countries has equipped me with a fresh, global perspective and a keen understanding of diverse cultures, including the nuances of Australian business environments.
-                </p>
-                <p class="intro-text">
-                    Through hands-on experience and leadership roles, I have developed strong analytical, collaborative, and communication skills. I view challenges as opportunities for growth and am eager to apply my evolving expertise to deliver meaningful impact.
-                </p>
-                <div class="specialties">
-                    <h3>What I Do</h3>
-                    <div class="specialty-grid">
-                        <div class="specialty-item">
-                            <div class="specialty-icon"><i class="fas fa-chart-line"></i></div>
-                            <div class="specialty-content">
-                                <h4>Business Intelligence</h4>
-                                <p>Transform raw data into strategic business insights for decision making.</p>
+                <div class="about-text">
+                    <p class="intro-text">
+                        Hello! I'm <strong>Marcus Nguyen</strong>, a passionate Digital Business student from the University of South Australia (UniSA). 
+                        My academic journey across multiple countries has equipped me with a fresh, global perspective and a keen understanding 
+                        of diverse cultures, including the nuances of Australian business environments.
+                    </p>
+                    <p class="intro-text">
+                        Through hands-on experience and leadership roles, I have developed strong analytical, collaborative, adaptive skills 
+                        and communication 'as a key'. I view challenges and setbacks as valuable opportunities for growth, and I am eager 
+                        to apply my curiosity, resilience, and evolving expertise to real-world business problems.
+                    </p>
+                    <div class="specialties">
+                        <h3>What I Do</h3>
+                        <div class="specialty-grid">
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Business Intelligence</h4>
+                                    <p>Transform raw data into strategic business insights</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="specialty-item">
-                            <div class="specialty-icon"><i class="fas fa-project-diagram"></i></div>
-                            <div class="specialty-content">
-                                <h4>Data Visualization</h4>
-                                <p>Create compelling dashboards and reports to communicate complex findings.</p>
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Data Visualization</h4>
+                                    <p>Create compelling dashboards and reports for stakeholders</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="specialty-item">
-                            <div class="specialty-icon"><i class="fas fa-brain"></i></div>
-                            <div class="specialty-content">
-                                <h4>Predictive Analytics</h4>
-                                <p>Forecast trends and patterns to support long-term strategic planning.</p>
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Predictive Analytics</h4>
+                                    <p>Forecast trends and support strategic planning</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="specialty-item">
-                            <div class="specialty-icon"><i class="fas fa-search-plus"></i></div>
-                            <div class="specialty-content">
-                                <h4>Requirements Analysis</h4>
-                                <p>Bridging the gap between business needs and effective technical solutions.</p>
+                            <div class="specialty-item">
+                                <div class="specialty-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="specialty-content">
+                                    <h4>Requirements Analysis</h4>
+                                    <p>Bridge the gap between business needs and technical solutions</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -139,58 +163,103 @@
     <section class="skills" id="skills">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Technical Skills</h2>
-                <p class="section-subtitle">Comprehensive toolkit for modern business analytics and digital transformation.</p>
+                <h2 class="section-title">Technical Skills & Tools</h2>
+                <p class="section-subtitle">Comprehensive toolkit for modern business analytics</p>
             </div>
             <div class="skills-content">
                 <div class="skill-category">
-                    <h3 class="category-title">Analytics & BI</h3>
+                    <h3 class="category-title">Analytics & Business Intelligence</h3>
                     <div class="skill-grid">
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fas fa-file-excel"></i></div>
-                            <span class="skill-name">Microsoft Excel</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="95%"></div></div>
+                            <div class="skill-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <span class="skill-name">MOS Excel</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fas fa-chart-pie"></i></div>
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-area"></i>
+                            </div>
                             <span class="skill-name">Tableau</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="85%"></div></div>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fas fa-database"></i></div>
-                            <span class="skill-name">SQL</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="80%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
                             <span class="skill-name">Power BI</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="75%"></div></div>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="skill-category">
                     <h3 class="category-title">Programming & Analysis</h3>
                     <div class="skill-grid">
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
                             <span class="skill-name">Python</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="80%"></div></div>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="65%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fas fa-table"></i></div>
-                            <span class="skill-name">Pandas / NumPy</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="85%"></div></div>
+                            <div class="skill-icon">
+                                <i class="fas fa-table"></i>
+                            </div>
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
-                            <span class="skill-name">HTML / CSS</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="70%"></div></div>
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
                         </div>
                         <div class="skill-item">
-                            <div class="skill-icon"><i class="fas fa-code"></i></div>
-                            <span class="skill-name">R Programming</span>
-                            <div class="skill-level"><div class="skill-progress" data-width="60%"></div></div>
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Presentation & Communication</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-file-powerpoint"></i>
+                            </div>
+                            <span class="skill-name">PowerPoint</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -203,72 +272,128 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Real-world business challenges solved through data-driven insights.</p>
+                <p class="section-subtitle">Real-world business challenges solved through data-driven insights</p>
             </div>
             <div class="projects-grid">
-                <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/project1.jpg" alt="BI Dashboard" onerror="this.src='https://images.unsplash.com/photo-1551288049-bbbda5366391?auto=format&fit=crop&q=80&w=800'">
+                        <img src="images/Dashboard Screenshot.png" alt="Business Intelligence Dashboard Project">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="https://1drv.ms/u/c/ee915bc60156bc5c/EdQUsz0x9IpIqV5UnSMHoFMB45XNjH9jBrppDdAYNVSr_g?e=1vsYYp" class="project-link" title="Live Link"><i class="fas fa-external-link-alt"></i></a>
-                                <a href="https://1drv.ms/v/c/ee915bc60156bc5c/EQlGcHwdabRGoRIgsVHYbhsBYXyL2URZmEtvzOF5qzwpRg" class="project-link" title="Tutorial"><i class="fab fa-youtube"></i></a>
+                                <a href="https://1drv.ms/u/c/ee915bc60156bc5c/EdQUsz0x9IpIqV5UnSMHoFMB45XNjH9jBrppDdAYNVSr_g?e=1vsYYp" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="project-content">
-                        <span class="project-category">Business Intelligence</span>
+                        <div class="project-category">Business Intelligence</div>
                         <h3 class="project-title">Interactive Sales Dashboard</h3>
-                        <p class="project-description">Streamlined sales performance tracking across multiple states of a US Superstore. Identified California and New York as key revenue drivers (30%+).</p>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Streamline sales performance tracking across multiple states of a Superstore in the US (data get from Kaggle)
+                            <br><br>
+                            <strong>Methodology:</strong> Descriptive Analytics, Data Visualization
+                            <br><br>
+                            <strong>Tools Used:</strong> Excel, Tableau
+                            <br><br>
+                            <strong>Step-by-step built:</strong> <a href="https://1drv.ms/v/c/ee915bc60156bc5c/EQlGcHwdabRGoRIgsVHYbhsBYXyL2URZmEtvzOF5qzwpRg" style="color: rgba(0, 183, 255, 0.747); text-decoration: underline;">Video tutorial link</a>
+                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">Excel</span>
                             <span class="tech-tag">Tableau</span>
-                            <span class="tech-tag">Data Viz</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/project2.jpg" alt="Excel Dashboard" onerror="this.src='https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&q=80&w=800'">
+                        <img src="images/Black Friday Sales Dashboard Screenshot.png" alt="Excel Skills & Dashboard Project">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="https://1drv.ms/x/c/ee915bc60156bc5c/ETP7myjjKtVPuSKuVwlIrBQBOIs7k3EDaoMTmiDJKKpo7A?e=5sKNUN" class="project-link" title="Live Link"><i class="fas fa-external-link-alt"></i></a>
-                                <a href="https://1drv.ms/v/c/ee915bc60156bc5c/EVSIQYCxZuRGvZQN1i8yKq0B763zoCHQYi-kIDeinVoNkQ?e=XgIYYj" class="project-link" title="Tutorial"><i class="fab fa-youtube"></i></a>
+                                <a href="https://1drv.ms/x/c/ee915bc60156bc5c/ETP7myjjKtVPuSKuVwlIrBQBOIs7k3EDaoMTmiDJKKpo7A?e=5sKNUN" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="project-content">
-                        <span class="project-category">Excel Skills</span>
-                        <h3 class="project-title">Black Friday Sales Analysis</h3>
-                        <p class="project-description">Presented sales performance during high-traffic periods. Leveraged customer loyalty data to recommend personalized outreach strategies.</p>
+                <div class="project-content">
+                        <div class="project-category">Excel Skills</div>
+                        <h3 class="project-title">Excel Sales Dashboard</h3>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Present the sales performance of a store in the US during the Black Friday period (data get from Kaggle)
+                            <br><br>
+                            <strong>Methodology:</strong> Data Management, Descriptive Analytics, Data Visualization
+                            <br><br>
+                            <strong>Tools Used:</strong> Excel
+                            <br><br>
+                            <strong>Step-by-step built:</strong> <a href="https://1drv.ms/v/c/ee915bc60156bc5c/EVSIQYCxZuRGvZQN1i8yKq0B763zoCHQYi-kIDeinVoNkQ?e=XgIYYj" style="color: rgba(0, 183, 255, 0.747); text-decoration: underline;">Video tutorial link</a>
+                        </p>
                         <div class="project-tech">
-                            <span class="tech-tag">Advanced Excel</span>
-                            <span class="tech-tag">Descriptive Analytics</span>
+                            <span class="tech-tag">Excel</span>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 3 -->
+                
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/project3.jpg" alt="Customer Churn" onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800'">
+                        <img src="./images/project-2-excel.png" alt="Predictive Analytics Model Project">
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div class="project-content">
-                        <span class="project-category">Predictive Analytics</span>
-                        <h3 class="project-title">Customer Behavior Model</h3>
-                        <p class="project-description">Predict customer churn and identify retention strategies using statistical modeling and behavioral pattern analysis.</p>
+                        <div class="project-category">Predictive Analytics</div>
+                        <h3 class="project-title">Customer Behavior Analysis</h3>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Predict customer churn and identify retention strategies
+                            <br><br>
+                            <strong>Methodology:</strong> Predictive Analytics, Statistical Modeling
+                            <br><br>
+                            <strong>Tools Used:</strong> Python, Pandas, Matplotlib
+                        </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
                             <span class="tech-tag">Pandas</span>
-                            <span class="tech-tag">Modeling</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./images/project-3-optimization.png" alt="Process Optimization Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Process Optimization</div>
+                        <h3 class="project-title">Supply Chain Optimization</h3>
+                        <p class="project-description">
+                            <strong>Business Challenge:</strong> Optimize inventory management and reduce operational costs
+                            <br><br>
+                            <strong>Methodology:</strong> Prescriptive Analytics, Process Optimization
+                            <br><br>
+                            <strong>Tools Used:</strong> SQL, Tableau, Excel
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">Excel</span>
                         </div>
                     </div>
                 </div>
@@ -276,65 +401,129 @@
         </div>
     </section>
 
-    <!-- Experience & Education Section -->
+    <!-- Experience Section -->
     <section class="experience" id="experience">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Experience & Education</h2>
-                <p class="section-subtitle">Academic excellence and professional development journey.</p>
+                <h2 class="section-title-ex">Experience & Certifications</h2>
+                <p class="section-subtitle">Academic excellence and professional development</p>
             </div>
-            <div class="experience-content">
-                <div class="experience-card">
-                    <div class="experience-icon"><i class="fas fa-university"></i></div>
-                    <div class="experience-info">
-                        <h3>University of South Australia (UniSA)</h3>
-                        <h4>Bachelor of Digital Business | 2023 - Present</h4>
-                        <div class="experience-details">
-                            <div class="detail-item"><i class="fas fa-star"></i> 6.38/7 GPA (Top 5% Student)</div>
-                            <div class="detail-item"><i class="fas fa-award"></i> 50% VC International Excellence Scholarship</div>
-                            <div class="detail-item"><i class="fas fa-book"></i> Coursework: BI, Project Management, Cloud Platforms, Security</div>
+            <div class="experience">
+                <div class="experience">
+                    <div class="experience-card">
+                        <div class="experience">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="experience">
+                            <h3>University of South Australia (UniSA)</h3>
+                            <h4>Bachelor of Digital Business | Current</h4>
+                            <div class="experience">
+                                <div class="detail-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>6.38/7 GPA (In top 5% of undergraduate and postgraduate students)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Vice Chancellor's International Excellence Scholarship of 50% at UniSA</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-book"></i>
+                                    <span>Relevant Coursework: Business Intelligence, Cloud Platforms, Project Management, Digital Technology in Business, Security Principles</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+                <div class="experience">
+                    <div class="experience-card">
+                        <div class="experience">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="experience">
+                            <h3>Student Ambassador (Staff) | UniSA</h3>
+                            <h4>From Jan, 2025 | Current</h4>
+                            <div class="experience">
+                                <div class="detail-item">
+                                    <i class="fas fa-tty"></i>
+                                    <span>Engaged with prospective students through phone calls, addressing their questions, showcasing strong communication and interpersonal skills.</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-table"></i>
+                                    <span>Maintained accurate records of interactions, ensuring organized data management and attention to details.</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="experience-card">
-                    <div class="experience-icon"><i class="fas fa-user-tie"></i></div>
-                    <div class="experience-info">
-                        <h3>Student Ambassador (Staff)</h3>
-                        <h4>University of South Australia | Jan 2025 - Present</h4>
-                        <div class="experience-details">
-                            <div class="detail-item"><i class="fas fa-check"></i> Engaged with prospective students via professional communication.</div>
-                            <div class="detail-item"><i class="fas fa-check"></i> Maintained accurate interaction records for data management.</div>
+                <div class="certifications">
+                    <h3>Professional Certifications</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Excel Basics for Data Analysis</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="certifications">
-                <h3 class="section-title-ex">Professional Certifications</h3>
-                <div class="cert-grid">
-                    <div class="cert-item">
-                        <div class="cert-icon"><i class="fab fa-ibm"></i></div>
-                        <div class="cert-info">
-                            <h4>Excel Basics for Data Analysis</h4>
-                            <p>IBM Professional Certification</p>
-                            <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EQNs4k8d80ZJhtvanBprp68BUJfnqzIyOVJWcOKy4rbstg" class="cert-link" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>SQL: A Practical Introduction for Querying Databases</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-icon"><i class="fab fa-ibm"></i></div>
-                        <div class="cert-info">
-                            <h4>SQL for Querying Databases</h4>
-                            <p>IBM Professional Certification</p>
-                            <a href="https://1drv.ms/b/c/ee915bc60156bc5c/Ea1HjxdbKkJJmykKsz7W8WQBedEFHv_q8ckUDgtpBcXmxA" class="cert-link" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Python for Data Science and AI & Development</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EbqNPrcmiuxBql3hentsdu0BcILXb3jUtCH4gCQ-7wwWmg?e=JxA2Tt" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cert-item">
-                        <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
-                        <div class="cert-info">
-                            <h4>Business Analysis Fundamentals</h4>
-                            <p>Microsoft Certification</p>
-                            <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw" class="cert-link" target="_blank">View Certificate <i class="fas fa-arrow-right"></i></a>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-warehouse"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Data Warehouse Fundamentals</h4>
+                                <p>IBM</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EcSZVHneDq5HlBKmq8MQDB8B1UsnFSXelWU0TLLUaJWZDQ?e=P42r1d" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Business Analysis Fundamentals</h4>
+                                <p>Microsoft</p>
+                                <a href="https://1drv.ms/b/c/ee915bc60156bc5c/EWeNNIqahRtDs3qlJeKedD0BAp2Mnw7YIMHQk_V3L_YMnw" class="cert-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    View Certificate
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -346,31 +535,39 @@
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's discuss how I can help transform your data into business value.</p>
+                <h2 class="section-title">Let's Connect!</h2>
+                <p class="section-subtitle">Ready to Transform Data into Business Value?</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
                     <p class="contact-description">
-                        I'm always excited to discuss business analytics, digital transformation, or collaboration opportunities. Reach out via any of these channels!
+                        I'm always excited to discuss business analytics, data science, and digital transformation opportunities. 
+                        Whether you're looking for a passionate business analyst or want to collaborate on data-driven projects, 
+                        I'd love to hear from you!
                     </p>
                     <div class="contact-methods">
                         <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="contact-method">
-                            <div class="method-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
                             <div class="method-info">
                                 <h4>Email Me</h4>
                                 <p>nguyenminhquangqn01012005@gmail.com</p>
                             </div>
                         </a>
                         <a href="https://www.linkedin.com/in/minh-quang-nguyen-010105work" class="contact-method" target="_blank">
-                            <div class="method-icon"><i class="fab fa-linkedin"></i></div>
+                            <div class="method-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
                             <div class="method-info">
                                 <h4>LinkedIn</h4>
                                 <p>Professional Network</p>
                             </div>
                         </a>
-                        <a href="https://github.com/MinhQUN" class="contact-method" target="_blank">
-                            <div class="method-icon"><i class="fab fa-github"></i></div>
+                        <a href="https://github.com/MinhQUN/Marcus_portfolio" class="contact-method" target="_blank">
+                            <div class="method-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
                             <div class="method-info">
                                 <h4>GitHub</h4>
                                 <p>View Projects</p>
@@ -380,9 +577,12 @@
                 </div>
                 <div class="contact-cta">
                     <div class="cta-content">
-                        <h3>Ready to start a project?</h3>
-                        <p>I am available for internships, collaborations, and business analysis roles.</p>
-                        <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="btn btn-primary">Start a Conversation</a>
+                        <h3>"Data is the new oil, but analytics is the refinery that transforms it into business value."</h3>
+                        <p>Let's build something amazing together!</p>
+                        <a href="mailto:nguyenminhquangqn01012005@gmail.com" class="btn btn-primary">
+                            <span>Start a Conversation</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -395,106 +595,15 @@
             <div class="footer-content">
                 <div class="footer-info">
                     <p>&copy; 2025 Marcus Nguyen. All rights reserved.</p>
+                    <p>Crafted with passion for business analytics and data-driven insights.</p>
                 </div>
-                <div class="footer-link">
-                    <p>Designed with <i class="fas fa-heart" style="color: var(--danger-color)"></i> for Business Analytics</p>
+                <div class="footer-links">
+                    <a href="#hero" class="footer-link">Back to Top</a>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script>
-        // Theme Toggle
-        const themeToggle = document.getElementById('themeToggle');
-        const body = document.body;
-        
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = body.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            body.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-        });
-
-        // Initialize Theme
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        body.setAttribute('data-theme', savedTheme);
-
-        // Mobile Nav
-        const navToggle = document.getElementById('navToggle');
-        const navMenu = document.getElementById('navMenu');
-
-        navToggle.addEventListener('click', () => {
-            navToggle.classList.toggle('active');
-            navMenu.classList.toggle('active');
-        });
-
-        // Typewriter Effect
-        const textElement = document.getElementById('typewriter');
-        const phrases = ["Nguyen", "Analyst", "Strategist"];
-        let phraseIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-
-        function type() {
-            const currentPhrase = phrases[phraseIndex];
-            if (isDeleting) {
-                textElement.textContent = currentPhrase.substring(0, charIndex - 1);
-                charIndex--;
-            } else {
-                textElement.textContent = currentPhrase.substring(0, charIndex + 1);
-                charIndex++;
-            }
-
-            if (!isDeleting && charIndex === currentPhrase.length) {
-                isDeleting = true;
-                setTimeout(type, 2000);
-            } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                phraseIndex = (phraseIndex + 1) % phrases.length;
-                setTimeout(type, 500);
-            } else {
-                setTimeout(type, isDeleting ? 100 : 200);
-            }
-        }
-        type();
-
-        // Skill Progress Animation
-        const observerOptions = { threshold: 0.5 };
-        const skillObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const progressBar = entry.target.querySelector('.skill-progress');
-                    if (progressBar) {
-                        progressBar.style.width = progressBar.getAttribute('data-width');
-                    }
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.skill-item').forEach(item => skillObserver.observe(item));
-
-        // Active Link Highlighting
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('.nav-link');
-
-        window.addEventListener('scroll', () => {
-            let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (pageYOffset >= (sectionTop - 200)) {
-                    current = section.getAttribute('id');
-                }
-            });
-
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href').includes(current)) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
