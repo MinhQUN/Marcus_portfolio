@@ -893,9 +893,44 @@ a {
   font-size: 0.9rem;
 }
 
-.detail-item h4 { margin-bottom: 0.5rem; }
-.detail-item .item-meta { display: block; margin-bottom: 0.25rem; }
-.detail-item .item-desc { display: block; }
+.leadership-awards h3 {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  color: var(--text-primary);
+}
+
+.award-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  flex: 1;
+}
+
+.award-content h4 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.award-meta {
+  display: block;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.award-desc {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.leadership-awards .experience-card {
+  align-items: flex-start;
+  padding: var(--spacing-lg);
+}
 
 .certifications h3 {
   text-align: center;
