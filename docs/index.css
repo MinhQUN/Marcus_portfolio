@@ -892,6 +892,10 @@ a {
   font-size: 0.9rem;
 }
 
+.detail-item h4 { margin-bottom: 0.5rem; }
+.detail-item .item-meta { display: block; margin-bottom: 0.25rem; }
+.detail-item .item-desc { display: block; }
+
 .certifications h3 {
   text-align: center;
   margin-bottom: var(--spacing-xl);
